@@ -136,7 +136,7 @@ h1 {
 /* section random choice picker style start */
 
 .random_choice_picker {
-  min-height: 613px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -146,18 +146,18 @@ h1 {
 }
 
 .random_choice_picker .wrapper {
-  max-width: 43%;
+  width: 43%;
   display: flex;
   flex-direction: column;
   
 }
 
-.text_input { max-width: 100%; }
+.text_input { width: 100%; }
 
 textarea {
   width: 90%;
   min-height: 71px;
-  padding: 20px;
+  padding: 10px;
   margin: 20px 0 10px;
   resize: none;
 }
