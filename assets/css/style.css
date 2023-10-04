@@ -79,7 +79,7 @@ sub { bottom: -.25em; }
 }
 
 .cf:after { clear: both; }
-.cf { *zoom: 1; }
+/* .cf { *zoom: 1; } */
 
 /*for all*/
 body {
@@ -103,47 +103,40 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
+  
+/* common class styling start */
 
+.font-color-white { color: #fff; }
+.background-white { background: #fff; }
+.background-yellow { background: #F0932B; }
 
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
+/* common class styling end */
 
 /*=================================
   main styling starts here
 =================================*/
 
+/* section random choice picker style start */
 
+.random_choice_picker {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #3C88F0;
+}
 
+.wrapper {
 
+}
 
-
-
+/* section random choice picker style start */
 
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
 
 /*media query starts*/
 /*media query for 995px starts here*/
