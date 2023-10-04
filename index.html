@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- If multi-language site, reconsider usage of html lang declaration here. -->
-<html lang="en"> 
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -13,10 +13,10 @@
   <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
   <link rel="shortcut icon" href="favicon.ico" />
   <!--font-awesome link for icons-->
-  <link rel="stylesheet" media="screen" href="assets/vendor/font-awesome/css/all.min.css" >
+  <link rel="stylesheet" media="screen" href="assets/vendor/font-awesome/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
-  <link rel="stylesheet" media="screen" href="assets/css/style.css" >
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
 </head>
 
 <body>
@@ -24,17 +24,25 @@
   <div class="container">
     <!--header section start-->
     <header>
-      
+
     </header>
     <!--header section start-->
     <!--main section start-->
     <main>
-
+      <section class="random_choice_picker">
+        <div class="wrapper">
+          <h1>Enter all of the choices divided by a comma (',').Press enter when you're done</h1>
+          <div class="text_input">
+            <textarea name="textarea" id="textarea" class="text"></textarea>
+          </div>
+          <div class="text_display"></div>
+        </div>
+      </section>
     </main>
     <!--main section end-->
 
     <!--footer section start-->
-    <footer>      
+    <footer>
 
     </footer>
     <!--footer section end-->
@@ -43,4 +51,5 @@
   <!--container end-->
   <script src="assets/js/script.js"></script>
 </body>
+
 </html>
